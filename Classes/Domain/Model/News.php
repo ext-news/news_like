@@ -3,7 +3,7 @@
 class Tx_Newslike_Domain_Model_News extends \GeorgRinger\News\Domain\Model\News
 {
 
-    /** @var integer */
+    /** @var int */
     protected $txNewslikeCount = 0;
 
     /**
@@ -26,5 +26,4 @@ class Tx_Newslike_Domain_Model_News extends \GeorgRinger\News\Domain\Model\News
     {
         return \GeorgRinger\NewsLike\Service\HashService::getHash($this->getUid());
     }
-
 }
