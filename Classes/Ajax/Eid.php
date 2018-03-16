@@ -6,10 +6,8 @@ use GeorgRinger\NewsLike\Service\HashService;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
-
 class Eid
 {
-
     const LOG_TABLE = 'tx_newslike_log';
 
     /** @var array */
@@ -110,7 +108,6 @@ class Eid
                 ->execute();
         }
     }
-
 
     /**
      * Get current date

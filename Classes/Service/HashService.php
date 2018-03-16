@@ -6,7 +6,6 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class HashService
 {
-
     const KEY = 'news_like';
 
     public static function getHash(int $newsId): string
