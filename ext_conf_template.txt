@@ -1,0 +1,2 @@
+#cat=basic/enable/30; type=integer; label=Day to next voting
+daysForNextVoting = 3

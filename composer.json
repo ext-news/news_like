@@ -1,0 +1,34 @@
+{
+  "name": "georgringer/news-like",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "news",
+    "like"
+  ],
+  "authors": [
+    {
+      "name": "Georg Ringer",
+      "role": "Developer",
+      "homepage": "http://ringer.it"
+    }
+  ],
+  "type": "typo3-cms-extension",
+  "description": "Add possibilities to add a simple like button to news items",
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "georgringer/news": "^6.0 || ^7.0",
+    "typo3/cms-core": "^8.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "GeorgRinger\\NewsLike\\": "Classes"
+    }
+  },
+  "replace": {
+    "news_like": "self.version",
+    "typo3-ter/news-like": "self.version"
+  }
+}
