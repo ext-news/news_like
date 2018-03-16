@@ -1,5 +1,9 @@
 # TYPO3 Extension 'news_like'
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/GeorgRinger/19.99)
+[![License](https://poser.pugx.org/georgringer/news-like/license)](https://packagist.org/packages/georgringer/news-like)
+
+
 This extension makes it possible to add a simple like button to a news record and to show the amount of likes.
 
 ## Requirements
